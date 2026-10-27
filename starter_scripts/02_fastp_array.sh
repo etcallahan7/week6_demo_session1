@@ -18,6 +18,7 @@ mkdir -p "$out_dir"
 module purge
 module load fastp
 
+
 fastp \
     -i "${raw_dir}/${sample}_R1.fastq.gz" \
     -I "${raw_dir}/${sample}_R2.fastq.gz" \
